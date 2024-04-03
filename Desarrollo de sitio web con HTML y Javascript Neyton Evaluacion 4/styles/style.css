@@ -1,0 +1,60 @@
+/* Estilizando el cuerpo */
+body{
+  margin: 20px;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Estilizando div del formulario */
+.container-form{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* Estilizando los grupos de botones */
+.gender-group {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+/* Estilizando los labels */
+label{
+  display: block;
+  margin: 1.1rem 0 0 0;
+}
+
+span{
+  display: block;
+  margin: 10px 0 0 10px;
+}
+
+select{
+  margin: 10px ;
+}
+
+input, select, textarea{
+  display: block;
+  margin: 10px 0 0 0;
+  width: 200px; 
+}
+
+input[name="email"] {
+  background-color: #eeeeee; 
+}
+
+button{
+  margin-top: 20px;
+}
+
+/* Asignando la fuente Tahoma a todos los párrafos y labels */
+p, label {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+}
+
+/* Edad */
+#color-age{
+  color: red;
+}
+

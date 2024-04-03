@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Registro en tienda</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+  <body>
+    
+    <div class="container-form">
+      <h1>Registro en nuetra tienda</h1>
+
+      <!-- Inicio de formulario -->
+      <form action="enviar.php" method="post">
+
+        <label for="name-user">Nombre de usuario:<input type="text" name="name-user" id="name-user" placeholder="Ej: luis" required></label>
+
+        <label for="email">Email: <input type="email" name="email" id="email" placeholder="Ej: luis@gmail.com"></label>
+
+        <label for="age" id="color-age">Edad: <input type="number" min="18" max="100" id="age" placeholder="Ej: 21"></label>
+
+        <label for="birthdate">Fecha de nacimiento: <input type="date" name="birthdate" id="birthdate" required></label>
+
+       <label for="genero">Género:</label>
+        <!-- Grupo de botones -->
+        <div class="gender-group">
+          <input type="radio" name="gender-user" id="masculine" value="masculino"> <label for="masculine">Masculino</label>
+          <input type="radio" name="gender-user" id="female" value="femenino"> <label for="female">Femenino</label>
+        </div>
+
+
+        <!-- Opciones -->
+        <span>Recomendado por:</span>
+        <select name="" id="">
+          <option value="">(Seleccione una opcion)</option>
+          <option value="google" selected>Google</option>
+          <option value="facebook">Facebook</option>
+          <option value="amazon">Amazon</option>
+        </select>
+
+        <span>Comentarios:</span>
+        <textarea name="comentarios" id="comentarios"">
+        </textarea>
+
+        <label for="terminos-condiciones">Acepto términos y condiciones: <input type="checkbox" name="terminos-condiciones" id="terminos-condiciones" required></label>
+
+        <button type="submit" id="enviar">Enviar</button>
+      </form>
+    </div>
+
+  </body>
+</html>
